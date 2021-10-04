@@ -18,7 +18,7 @@ class App extends Component {
   componentDidMount() {
     setInterval(() => {
       this.setState({isLoading:false});
-    }, 100);
+    }, 1000);
   }
 
   render(){
