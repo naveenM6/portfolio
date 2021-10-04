@@ -1,0 +1,57 @@
+.intro{
+    color: #64ffda;
+    font-family:'Courier New', monospace;
+}
+.statement{
+    color: #8892b0;
+    margin-bottom: 50px;
+    margin-top: -10px;
+}
+
+.get-in-touch{
+    padding: 20px 35px;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    color: #64ffda;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-in-touch:hover{
+    background-color: #64ffdb33;
+}
+
+@media (max-width:1023px){
+    .opening-container{
+        padding:15%;
+    }
+    .name-header{
+        color: #ffffff;
+        font-size: 45px;
+    }
+    .passion-header{
+        color: #8892b0;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px){
+    .opening-container{
+        display: flex;
+        padding-left: 15%;
+        padding-right: 15%;
+        align-items: center;
+        /* margin-top:105px; */
+    }
+    .name-header{
+        color: #ffffff;
+        font-size: 59px;
+    }
+    .passion-header{
+        color: #8892b0;
+        font-size: 59px;
+    }
+    .company{
+        transition: text-decoration 0.5s;
+    }
+}

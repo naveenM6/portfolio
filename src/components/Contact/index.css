@@ -1,0 +1,38 @@
+.contact-container{
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-header{
+    color: #ccd6f6;
+}
+
+.contact-btn{
+    border: 1px solid #64ffda;
+    background-color: transparent;
+    color: #64ffda;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.contact-btn:hover{
+    background-color: #64ffda5c;
+}
+
+@media (max-width: 1023px) {
+    .contact-container{
+        padding: 5% 5%;
+    }
+}
+
+@media (min-width: 1024px){
+    .contact-container{
+        padding: 10% 30%;
+    }
+    .contact-content{
+        font-size:18px;
+        margin: 20px;
+    }
+}

@@ -1,0 +1,43 @@
+.about-container{
+    color: #ffffff;
+}
+.about-header{
+    color: #ccd6f6;
+}
+.arrows{
+    color: #64ffda;
+}
+@media (max-width: 1023px){
+    .about-container{
+        padding:15%;
+    }
+    .personal-image-container{
+        text-align:center;
+    }
+    .personalpic{
+        height: 220px;
+    }
+    .technologies{
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .about-container{
+        padding-right: 15%;
+        padding-left: 15%;
+        margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .personalpic{
+        height:250px;
+    }
+    .about-content-wrapper{
+        display:flex;
+    }
+    .technologies{
+        padding: 20px;
+    }
+}
