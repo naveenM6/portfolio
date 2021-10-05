@@ -19,8 +19,8 @@ const companyContent = [
         id:0,
         role:'Business Analyst',
         workDate: 'July 2020 - Present',
-        jobContent: ['Build Business Models to make the react of product to more in number.',
-        'Interacting with the customers and understanding their pain points &amp; addressing them.',
+        jobContent: ['Build Business Models to make the reach of product to more in number.',
+        'Interacting with the customers and understanding their pain points & addressing them.',
         'Making our product reach huge numbers and getting insights to make more Human centric approach in our product.']
     },
     {
