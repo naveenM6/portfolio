@@ -18,7 +18,7 @@ const companyContent = [
     {
         id:0,
         role:'Business Analyst',
-        workDate: 'July 2020 - Present',
+        workDate: 'July 2020 - December 2021',
         jobContent: ['Build Business Models to make the reach of product to more in number.',
         'Interacting with the customers and understanding their pain points & addressing them.',
         'Making our product reach huge numbers and getting insights to make more Human centric approach in our product.']
