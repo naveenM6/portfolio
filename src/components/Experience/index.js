@@ -6,10 +6,14 @@ import './index.css';
 const companyName = [
     {
         id:0,
-        companyName:'iB Hubs'
+        companyName:'epam systems'
     },
     {
         id:1,
+        companyName:'iB Hubs'
+    },
+    {
+        id:2,
         companyName:'LpTechlogs'
     }
 ]
@@ -17,6 +21,14 @@ const companyName = [
 const companyContent = [
     {
         id:0,
+        role:'Software Engineer',
+        workDate: 'January 2022 - Present',
+        jobContent:['Working on Client Side developing Web Apps Primarily working on JavaScript Frameworks.',
+        'Developing First Class WebApps With Mind Blowing Ui Experiences.',
+        'Mastering Over Top JavaScript Frameworks and other on Demand Technologies for the future Projects and for my Career.']
+    },
+    {
+        id:1,
         role:'Business Analyst',
         workDate: 'July 2020 - December 2021',
         jobContent: ['Build Business Models to make the reach of product to more in number.',
@@ -24,7 +36,7 @@ const companyContent = [
         'Making our product reach huge numbers and getting insights to make more Human centric approach in our product.']
     },
     {
-        id:1,
+        id:2,
         role:'FrontEnd Developer',
         workDate: 'July 2018 - December 2018',
         jobContent: ['Developed and maintained code for in-house and client websites primarily using HTML, CSS.',

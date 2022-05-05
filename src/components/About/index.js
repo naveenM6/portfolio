@@ -16,13 +16,14 @@ const About = () => {
                     </p>
                     <p>Here are the few technologies that i've been working with recently:</p>
                     <div className="technologies">
-                        <p>{<RiArrowDropRightLine className="arrows"/>} React Native</p>
                         <p>{<RiArrowDropRightLine className="arrows"/>} React</p>
+                        <p>{<RiArrowDropRightLine className="arrows"/>} Angular</p>
                         <p>{<RiArrowDropRightLine className="arrows"/>} Express JS</p>
+                        <p>{<RiArrowDropRightLine className="arrows"/>} Sequelize JS</p>
                     </div>
                 </div>
                 <div className="personal-image-container">
-                    <img className="personalpic" src={require('./professionalpic.JPG').default} alt="PersonalPic"/>
+                    <img className="personalpic" src={require('./white.png').default} alt="PersonalPic"/>
                 </div>
             </div>
         </div>
